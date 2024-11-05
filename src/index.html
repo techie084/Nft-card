@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- linking fav-icon -->
+    <link
+      href="/images/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <!-- Linking stylesheet -->
+    <link href="./output.css" rel="stylesheet" />
+    <title>NFT card</title>
+  </head>
+  <body
+    class="bg-darkBlueBg flex flex-col items-center justify-center text-center h-screen"
+  >
+    <!-- gradient image blended  -->
+    <div
+      class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"
+    ></div>
+    <div class="mx-auto max-h-screen">
+      <!--   container -->
+      <div class="bg-DarkBlue rounded-2xl p-4 max-w-80 shadow-2xl">
+        <!--     image container -->
+        <div
+          class="flex items-center justify-center bg-no-repeat bg-cover bg-center rounded-lg cursor-pointer mb-4 hover:bg-sky-400 hover:bg-opacity-30"
+          style="background-image: url(/images/icon-view.svg)"
+        >
+          <img
+            alt="image-equilibrium"
+            class="rounded-lg hover:-z-10 hover:opacity-90"
+            src="/images/image-equilibrium.jpg"
+          />
+        </div>
+        <!-- text-container -->
+        <div>
+          <h2
+            class="font-bold text-left text-White text-xl mb-3 hover:text-sky-400 cursor-pointer"
+          >
+            Equilibrium #3429
+          </h2>
+          <p class="text-left text-gray mb-3">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex justify-between items-center gap-8">
+            <h3 class="flex items-center justify-center text-sky-400 gap-1">
+              <img alt="eth-image" src="/images/icon-ethereum.svg" /> 0.041 ETH
+            </h3>
+            <p class="text-gray flex items-center justify-center gap-1">
+              <img
+                alt="icon-clock-image"
+                class="text-gray"
+                src="/images/icon-clock.svg"
+              />
+              3 days left
+            </p>
+          </div>
+          <!-- horizontal line  -->
+          <hr class="my-4 border-gray" />
+          <!--        -->
+          <div class="flex items-center gap-4">
+            <img
+              alt="image-avatar"
+              class="ml-2 w-10 border-2 border-White rounded-full"
+              src="/images/image-avatar.png"
+            />
+            <p class="text-White hover:text-sky-400 cursor-pointer">
+              <span class="text-gray">Creation of</span>
+              Jules Wyvern
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TODO -->
+    <!-- attribution {footer} -->
+    <div class="mt-4 no-underline text-White text-sm">
+      Challenge by
+      <a
+        class="text-sky-400"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a class="text-sky-400" href="#">Wisdom Matthew</a>.
+    </div>
+  </body>
+</html>
+
+<!-- background  -->
+<!-- <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> -->
